@@ -22,7 +22,12 @@ public class TestController {
 
     @GetMapping("test01")
     public String test01(){
-        return "test";
+        return "test01";
+    }
+
+    @GetMapping("test02")
+    public String test02(){
+        return "test02";
     }
 
 
