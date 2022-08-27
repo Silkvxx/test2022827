@@ -6,7 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    //name属性
     private String name;
+    //age
+    private Integer age;
 
     @GetMapping
     public String test(){
