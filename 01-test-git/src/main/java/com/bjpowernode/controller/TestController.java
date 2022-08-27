@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    private String name;
+
     @GetMapping
     public String test(){
         return "hello git";
@@ -15,5 +17,6 @@ public class TestController {
     public String test01(){
         return "test";
     }
+
 
 }
