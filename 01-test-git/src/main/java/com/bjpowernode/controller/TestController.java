@@ -11,6 +11,10 @@ public class TestController {
     //age
     private Integer age;
 
+    //地址属性
+    private String address;
+
+
     @GetMapping
     public String test(){
         return "hello git";
